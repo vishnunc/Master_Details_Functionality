@@ -1,0 +1,10 @@
+steps:
+  mtaBuild:
+    buildTarget: 'NEO'
+    mtaJarLocation: 'c:/mta.jar'
+  neoDeploy:
+    neoHome: 'C:/neo'
+    neo:
+      credentialsId: 'NEO'
+      account: p2001269540trial
+      host: hanatrial.ondemand.com
