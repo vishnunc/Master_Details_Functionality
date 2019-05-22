@@ -1,7 +1,7 @@
 steps:
   mtaBuild:
     buildTarget: 'NEO'
-    mtaJarLocation: 'c:/mta.jar'
+    mtaJarLocation: 'c:/Master_Details_Functionality/mta.jar'
   neoDeploy:
     neoHome: 'C:/neo'
     neo:
