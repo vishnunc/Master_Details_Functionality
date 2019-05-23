@@ -3,7 +3,7 @@
 import com.sap.piper.Utils
 import com.sap.piper.ConfigurationLoader
 import com.sap.piper.ConfigurationMerger
-def PACKAGE = '''$SAP_DEMO'''
+def PACKAGE = '''$Master-Details'''
 def COVERAGE = 80
 def VARIANT = "DEFAULT"
 /**
