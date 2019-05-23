@@ -3,7 +3,7 @@
 import com.sap.piper.Utils
 import com.sap.piper.ConfigurationLoader
 import com.sap.piper.ConfigurationMerger
-def PACKAGE = '''$SAP_DEMO'''
+def PACKAGE = '''$Master_Details_Funcionality'''
 def COVERAGE = 80
 def VARIANT = "DEFAULT"
 /**
@@ -38,7 +38,7 @@ node() {
         	
         	
         	
-        	def sap_pipeline = load "src/sap.groovy"
+        	//def sap_pipeline = load "src/sap.groovy"
   stage("Clone sources and setup environment"){
     deleteDir()
     Map neoDeployConfiguration, mtaBuildConfiguration
