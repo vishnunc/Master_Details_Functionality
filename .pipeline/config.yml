@@ -5,7 +5,7 @@ steps:
    
    neoDeploy:
     neoHome: 'C:/neo'
-    deployMode: mta
+    
     neo:
       credentialsId: 'NEO'
       account: p2001269540trial
