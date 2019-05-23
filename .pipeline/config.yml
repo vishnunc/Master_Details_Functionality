@@ -2,7 +2,7 @@ steps:
   mtaBuild:
     buildTarget: 'NEO'
     mtaJarLocation: 'c:/mta.jar'
-   neoDeploy script: this, source: 'path/to/archiveFile.mtar', neo: [credentialsId: 'NEO', host: hanatrial.ondemand.com]
+   
    neoDeploy:
     neoHome: 'C:/neo'
     deployMode: mta
