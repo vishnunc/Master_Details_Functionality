@@ -6,7 +6,7 @@ parameters:
   hcp-deployer-version: "1.0.0"
 
 modules:
-  - name: "Master_Details_Functionality"
+  - name: "hellodemo"
     type: html5
     path: .
     parameters:
