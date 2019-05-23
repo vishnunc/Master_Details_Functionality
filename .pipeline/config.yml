@@ -2,10 +2,8 @@ steps:
   mtaBuild:
     buildTarget: 'NEO'
     mtaJarLocation: 'c:/mta.jar'
-   
-   neoDeploy:
+  neoDeploy:
     neoHome: 'C:/neo'
-    
     neo:
       credentialsId: 'NEO'
       account: p2001269540trial
