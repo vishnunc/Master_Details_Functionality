@@ -1,5 +1,5 @@
 _schema-version: "2.0.0"
-ID: "sap123"
+ID: "ee1234"
 version: 0.0.1
 
 parameters:
@@ -10,7 +10,7 @@ modules:
     type: html5
     path: .
     parameters:
-       version: 0.0.1-36
+       version: 0.0.1-35
     build-parameters:
       builder: grunt
       build-result: target
